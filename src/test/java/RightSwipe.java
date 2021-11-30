@@ -46,9 +46,5 @@ public class RightSwipe {
         //Свайп
         new TouchAction(driver).press(PointOption.point(654, 671)).moveTo(PointOption.point(144, 646)).release().perform();
     }
-    /*
-    @After
-    public void tearDown() {
-        driver.quit(); */
 
 }
